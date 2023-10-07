@@ -1,0 +1,10 @@
+.main-bg-container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.main-head {
+  text-align: center;
+  font-size: 22px;
+  font-family: Roboto;
+  color: #171f46;
+}

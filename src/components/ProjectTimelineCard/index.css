@@ -1,0 +1,14 @@
+.project-bg-container {
+  width: 100%;
+}
+.projects-image-size {
+  height: 200px;
+  width: 100%;
+}
+
+.project-tittle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

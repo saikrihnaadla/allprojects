@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  padding: 2px;
+  height: 100%;
+  width: 100%;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-bg {
+  background-color: #94bcea;
+  flex-shrink: 1;
+  flex-shrink: inherit;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.skills-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  flex-wrap: wrap;
+}

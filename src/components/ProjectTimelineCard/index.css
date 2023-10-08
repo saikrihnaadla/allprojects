@@ -2,13 +2,51 @@
   width: 100%;
 }
 .projects-image-size {
-  height: 200px;
   width: 100%;
 }
 
-.project-tittle-container {
+.project-title-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.calender-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-style {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.visit-style {
+  font-weight: 600;
+  font-family: roboto;
+  font-size: 16px;
+  color: #0967d2;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .description-style {
+    font-size: 12px;
+  }
+  .skill-head {
+    font-size: 16px;
+  }
+  .heading-container {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .skills-head {
+    font-size: 12px;
+  }
 }

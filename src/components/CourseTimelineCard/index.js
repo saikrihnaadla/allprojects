@@ -9,14 +9,16 @@ const CourseTimelineCard = props => {
     <div className="bg-container">
       <div className="heading-container">
         <h1>{courseTitle}</h1>
-        <AiFillClockCircle />
-        <p>{duration}</p>
+        <div className="calender-style">
+          <AiFillClockCircle />
+          <p className="hours-style">{duration}</p>
+        </div>
       </div>
-      <p>{description}</p>
+      <p className="description-style">{description}</p>
       <ul className="skills-container">
         {tagsList.map(eachObject => (
           <li className="skills-bg" key={eachObject.id}>
-            <p>{eachObject.name}</p>
+            <p className="skills-head">{eachObject.name}</p>
           </li>
         ))}
       </ul>

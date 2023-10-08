@@ -14,13 +14,17 @@ const ProjectTimelineCard = props => {
   return (
     <div className="project-bg-container">
       <img src={imageUrl} alt="project" className="projects-image-size" />
-      <div className="project-tittle-container">
+      <div className="project-title-container">
         <h1>{projectTitle}</h1>
-        <AiFillCalendar />
-        <p>{duration}</p>
+        <div className="calender-style">
+          <AiFillCalendar />
+          <p className="hours-style">{duration}</p>
+        </div>
       </div>
-      <p>{description}</p>
-      <a href={projectUrl}>Visit</a>
+      <p className="description-style">{description}</p>
+      <a className="visit-style" href={projectUrl}>
+        Visit
+      </a>
     </div>
   )
 }
